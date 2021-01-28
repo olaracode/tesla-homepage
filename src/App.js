@@ -23,7 +23,7 @@ function App() {
           leftBtnLink=""
           rightBtnTxt="Learn More"
           rightBtnLink=""
-          twoButtons="true"
+          twoButtons={true}
           first
         />
         <Item
@@ -35,7 +35,7 @@ function App() {
           leftBtnLink=""
           rightBtnTxt="Learn More"
           rightBtnLink=""
-          twoButtons="true"
+          twoButtons={true}
         />
         <Item
           title="Model 3"
@@ -46,7 +46,7 @@ function App() {
           leftBtnLink=""
           rightBtnTxt="Learn More"
           rightBtnLink=""
-          twoButtons="true"
+          twoButtons={true}
         />
         <Item
           title="Model X"
@@ -57,7 +57,7 @@ function App() {
           leftBtnLink=""
           rightBtnTxt="Learn More"
           rightBtnLink=""
-          twoButtons="true"
+          twoButtons={true}
         />
         <Item
           title="Model Y"
@@ -68,7 +68,7 @@ function App() {
           leftBtnLink=""
           rightBtnTxt="Learn More"
           rightBtnLink=""
-          twoButtons="true"
+          twoButtons={true}
         />
         <Item
           title="Solar Roof"
@@ -79,7 +79,7 @@ function App() {
           leftBtnLink=""
           rightBtnTxt=""
           rightBtnLink=""
-          twoButtons="false"
+          twoButtons={false}
         />
       </div>
     </div>

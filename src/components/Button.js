@@ -1,7 +1,11 @@
 import React from "react";
-
-function Button() {
-  return <div className="button"></div>;
+import "./Button.css";
+function Button({ imp, text, link }) {
+  return (
+    <div className={`button ${imp === "secundary" ? "buttonWhite" : ""}`}>
+      <a href={link}>{text}</a>
+    </div>
+  );
 }
 
 export default Button;

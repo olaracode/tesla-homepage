@@ -6,6 +6,7 @@
   background-size: cover;
   display: flex;
   justify-content: center;
+  scroll-snap-align: start;
 }
 .itemContainer {
   width: 40vw;
@@ -37,7 +38,8 @@
 }
 .itemExpand {
   color: white;
-  width: 100%;
+  width: auto;
   margin-top: 3%;
   justify-content: center;
+  align-self: center;
 }
